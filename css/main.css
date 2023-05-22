@@ -212,3 +212,81 @@ footer .footer-left {
 footer .footer-right {
     margin-right: 20px;
 }
+
+/* Tablets */ 
+
+@media (max-width: 650px) {
+
+    main .main-input {
+        margin: 0;
+        width: 400px;
+    }
+
+    .main-input .main-input-container {
+        width: 390px;
+    }
+
+    .main-input .main-input-container .search-icon {
+        width: 21px;
+        height: 18px;
+    }
+
+    main .main-input input {
+        width: 250px;
+    }
+    
+    body footer {
+        height: 140px;
+        justify-content: space-around;
+    }
+
+    footer .footer-left {
+        margin: 0;
+    }
+
+    footer .footer-right {
+        margin: 0;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+
+/* Telefonos */ 
+
+@media (max-width: 450px) {
+
+    main .main-logo {
+        width: auto;
+    }
+
+    main .main-logo img {
+        width: 180px;
+        height: auto;
+    }
+
+    main .main-input {
+        margin: 0;
+        width: 280px;
+    }
+
+    .main-input .main-input-container {
+        width: 270px;
+    }
+
+    .main-input .main-input-container .search-icon {
+        width: 16px;
+        height: 13px;
+    }
+
+    main .main-input input {
+        width: 130px;
+    }
+    
+    body footer {
+        display: none;
+    }
+}
